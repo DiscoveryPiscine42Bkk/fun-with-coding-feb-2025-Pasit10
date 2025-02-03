@@ -1,1 +1,1 @@
-echo Z > z.txt
+echo Z > z
