@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f1e5; /* Light background for contrast */
+    background-color: #f8f1e5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,22 +22,22 @@ label {
 }
 
 .menu-select {
-    background-color: #ffcc4d; /* Cheese color */
-    color: #5a3e1b; /* Brown like a baguette */
+    background-color: #ffcc4d;
+    color: #5a3e1b;
     padding: 10px;
     font-size: 18px;
-    border: 2px solid #b07f32; /* Bread crust color */
+    border: 2px solid #b07f32;
     border-radius: 12px;
     cursor: pointer;
     transition: 0.3s;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
-    appearance: none; /* Removes default styling */
+    appearance: none;
     text-align: center;
     width: 250px;
 }
 
 .menu-select:hover {
-    background-color: #ffdb70; /* Slightly lighter cheese */
+    background-color: #ffdb70;
 }
 
 .menu-select:focus {
