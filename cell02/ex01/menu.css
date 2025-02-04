@@ -9,38 +9,25 @@ body {
 }
 
 .menu-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 
 label {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
-    margin-bottom: 10px;
     color: #5a3e1b;
 }
 
 .menu-select {
     background-color: #ffcc4d;
     color: #5a3e1b;
-    padding: 10px;
-    font-size: 18px;
+    padding: 8px;
+    font-size: 16px;
     border: 2px solid #b07f32;
-    border-radius: 12px;
-    cursor: pointer;
-    transition: 0.3s;
-    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
-    appearance: none;
-    text-align: center;
-    width: 250px;
+    border-radius: 8px;
+    width: 200px;
 }
 
 .menu-select:hover {
     background-color: #ffdb70;
-}
-
-.menu-select:focus {
-    outline: none;
-    border-color: #ffdb70;
 }
